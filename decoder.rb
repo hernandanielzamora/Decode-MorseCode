@@ -1,4 +1,4 @@
-# Method that provides the morse table
+# Method that provides the morse table.
 def morse_dictionary(morse_entry)
   morse_dictionary = {
     '.-' => 'A', '-...' => 'B', '-.-.' => 'C', '-..' => 'D', '.' => 'E',
@@ -23,7 +23,6 @@ def word_decode(word_code)
   end
   decoded_word
 end
-
 
 # Decode word by word and arrange the phrase
 def phrase_decode(decoded_message)
@@ -56,4 +55,3 @@ puts decoded_morse_code3
 morse_code4 = '.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...'
 decoded_morse_code4 = phrase_decode(morse_code4)
 puts decoded_morse_code4
-
