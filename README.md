@@ -11,7 +11,7 @@
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install] (#install)
+  - [Install](#install)
   - [Usage](#usage)
   - [Test](#test)
 - [👥 Authors](#authors)
